@@ -4,10 +4,21 @@
 <title>Team Ivon</title>
 </head>
 <body style="background-color:powderblue;">
+<div>
+<h1 style="background-color:DodgerBlue;" > <a href="/"> DCDJ</a> Salut ici la team Ivon </h1>
+</div>
 
-<h1 style="background-color:DodgerBlue;" >  Salut ici la team Ivon</h1>
+{% for post in posts %}
+    {{ post }}
+{% endfor %}
+<div>
+{% for post in posts %}
+
 <p>Je vais vous présenter la team Ivon</p>
 <h2>SuperFellow Kolo Ivon</h2>
+</div>
+{% endfor %}
+
 <h3 style="color:MediumSeaGreen;">Les fellows Cheick, Alima, Farrel, Abraham, Meite, Sawadigo</h3>
 <h4 >Nous vous souhaitons akwaba sur notre plateforme d'échange et de collaboration</h4>
 
